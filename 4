@@ -6,3 +6,16 @@ if the limit is 3, it should print:
     1 ODD
     2 EVEN
     3 ODD
+
+Solution:
+
+def showNumbers(limit):
+
+    for number in range(0, limit+1):
+        if number % 2 == 0:
+            print(f'{number} EVEN')
+        else:
+            print(f'{number} ODD')
+
+
+showNumbers(5)
