@@ -1,6 +1,6 @@
-Write a function that prints all the prime numbers between 0 and limit where limit is a parameter.
+# Write a function that prints all the prime numbers between 0 and limit where limit is a parameter.
 
-Solution:
+# Solution:
 
 def prime_num(limit):
     prime_list = []
@@ -16,7 +16,7 @@ def prime_num(limit):
 
 prime_num(5)
 
-Solution:
+# Solution:
 
 def prime_num(limit):
     prime_list = []
